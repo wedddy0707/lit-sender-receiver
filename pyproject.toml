@@ -1,0 +1,25 @@
+[project]
+name = "lit-sender-receiver"
+version = "0.1.0"
+description = "PyTorch Lightning template for emergent communication and sender-receiver games."
+readme = "README.md"
+authors = [
+    { name = "wedddy0707" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "beartype>=0.22.9",
+    "jaxtyping>=0.3.11",
+    "jsonargparse[signatures]>=4.49.0",
+    "lightning>=2.6.5",
+    "pytest>=9.1.1",
+    "torch>=2.12.1",
+    "typeguard>=4.5.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.ruff.lint]
+extend-ignore = ["F722"]
