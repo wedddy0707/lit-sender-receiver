@@ -10,7 +10,7 @@
 A lightweight template designed for rapid and type-safe research on signaling games (Sender-Receiver games) and emergent communication.
 By combining PyTorch Lightning's infrastructure with strict tensor shape checking via jaxtyping, this project aims to maximize the pace of experiments while preventing errors during development.
 
-# Quick Start
+## Quick Start
 
 ```
 $ git clone git@github.com:wedddy0707/lit-sender-receiver.git
@@ -21,12 +21,12 @@ $ uv run python -m examples.onehot_rnn_reconstruction_game fit --config examples
 $ column -s , -t ./lightning_logs/version_0/metrics.csv | less -S
 ```
 
-# Acknowledgments
+## Acknowledgments
 
 This project is significantly inspired by the [EGG (Emergence of lanGuage in Games) toolkit](https://github.com/facebookresearch/EGG) developed by Meta Research (formerly Facebook AI Research).
 While this repository is an independent template built to leverage PyTorch Lightning and modern typing, EGG's foundational abstractions for signaling games heavily influenced the architectural design choices made here.
 
-# Citation
+## Citation
 
 While this project is licensed under the 0BSD license and does not require attribution, I would greatly appreciate it if you could cite it if you find it useful in your research:
 
@@ -41,6 +41,6 @@ While this project is licensed under the 0BSD license and does not require attri
 }
 ```
 
-# License
+## License
 
 This project is licensed under the Zero-Clause BSD (0BSD) License - see the [LICENSE](LICENSE) file for details.
