@@ -1,4 +1,4 @@
-# PyTorch Lightning Template for Sender-Receiver Games (lit-sender-receiver)
+# Lit-Sender-Receiver: PyTorch Lightning Template for Sender-Receiver Games
 
 > [!WARNING]
 > **Work in Progress & Personal Template**
@@ -25,6 +25,21 @@ $ column -s , -t ./lightning_logs/version_0/metrics.csv | less -S
 
 This project is significantly inspired by the [EGG (Emergence of lanGuage in Games) toolkit](https://github.com/facebookresearch/EGG) developed by Meta Research (formerly Facebook AI Research).
 While this repository is an independent template built to leverage PyTorch Lightning and modern typing, EGG's foundational abstractions for signaling games heavily influenced the architectural design choices made here.
+
+# Citation
+
+While this project is licensed under the 0BSD license and does not require attribution, I would greatly appreciate it if you could cite it if you find it useful in your research:
+
+```bibtex
+@misc{lit_sender_receiver,
+  author = {Ryo Ueda},
+  title = {Lit-Sender-Receiver: PyTorch Lightning Template for Sender-Receiver Games},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{[https://github.com/your-username/lit-sender-receiver](https://github.com/your-username/lit-sender-receiver)}}
+}
+```
 
 ## License
 
