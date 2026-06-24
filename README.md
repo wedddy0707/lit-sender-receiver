@@ -41,6 +41,6 @@ While this project is licensed under the 0BSD license and does not require attri
 }
 ```
 
-## License
+# License
 
 This project is licensed under the Zero-Clause BSD (0BSD) License - see the [LICENSE](LICENSE) file for details.
